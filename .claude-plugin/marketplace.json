@@ -1,0 +1,24 @@
+{
+  "name": "astudio",
+  "owner": {
+    "name": "astudio",
+    "url": "https://astudio.one"
+  },
+  "metadata": {
+    "description": "astudio.one plugins for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "astudio-aio",
+      "source": "./",
+      "description": "astudio All-in-One design studio: logo -> brand kit & design code -> website, plus dashboard, mobile, 3D, banners, CTA creatives, slides.",
+      "version": "1.0.0",
+      "author": {
+        "name": "astudio",
+        "url": "https://astudio.one"
+      },
+      "homepage": "https://github.com/whoamnesia/astudio-aio"
+    }
+  ]
+}

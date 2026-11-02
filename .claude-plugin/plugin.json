@@ -1,0 +1,28 @@
+{
+  "name": "astudio-aio",
+  "version": "1.0.0",
+  "description": "astudio All-in-One design studio for Claude Code: logo, brand kit and design code, websites, landing pages, dashboards, mobile/app design, 3D elements, banners, CTA creatives and slides - with anti-template art direction, a searchable design database and render-and-critique tooling.",
+  "author": {
+    "name": "astudio",
+    "url": "https://astudio.one"
+  },
+  "keywords": [
+    "design",
+    "ui",
+    "ux",
+    "brand",
+    "logo",
+    "design-system",
+    "tokens",
+    "landing-page",
+    "dashboard",
+    "mobile",
+    "3d",
+    "banner",
+    "slides"
+  ],
+  "license": "MIT",
+  "icon": ".claude-plugin/icon.png",
+  "homepage": "https://github.com/whoamnesia/astudio-aio",
+  "repository": "https://github.com/whoamnesia/astudio-aio"
+}

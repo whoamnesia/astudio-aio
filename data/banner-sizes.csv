@@ -1,0 +1,34 @@
+platform,format,width,height,ratio,safe_zone,max_file,use,keywords,notes
+Instagram,Feed portrait,1080,1350,4:5,Keep text inside central 1010x1280; avoid bottom 250px on Reels covers,30MB,social post,instagram feed post portrait carousel,Highest feed real estate; preferred over square for ads
+Instagram,Feed square,1080,1080,1:1,Central 960x960,30MB,social post,instagram square post,Grid previews crop to 4:5/3:4 profile grid - keep subject centred
+Instagram,Story / Reels,1080,1920,9:16,Top 250px and bottom 340px covered by UI; keep text in central 1080x1330,30MB,story vertical,instagram story reels vertical fullscreen,Also TikTok/Shorts/VK Clips
+Facebook,Feed / link,1200,630,1.91:1,Central 90%,30MB,social post,facebook feed link share og,Same as Open Graph image
+Facebook,Cover (page),1640,624,2.63:1,Mobile shows central 1200x624 approx; keep logo/text in centre,—,social cover,facebook cover page header,Desktop 820x312 display
+Facebook / Meta,Ad square,1080,1080,1:1,Central 80%,30MB,ad,meta ads square feed,Keep text compact; Meta no longer hard-limits 20% text but text-heavy ads reach worse
+X (Twitter),Post image,1600,900,16:9,Central 90%,5MB,social post,twitter x post image,1200x675 minimum
+X (Twitter),Header,1500,500,3:1,Avatar overlaps lower-left 400x200; mobile crops top/bottom ~60px,5MB,social cover,twitter x header banner,
+LinkedIn,Feed image,1200,627,1.91:1,Central 90%,5MB,social post,linkedin post share,
+LinkedIn,Personal banner,1584,396,4:1,Avatar covers lower-left; keep content right-of-centre,8MB,social cover,linkedin profile banner,
+LinkedIn,Company cover,1128,191,5.9:1,Central area only,3MB,social cover,linkedin company page cover,
+YouTube,Channel art,2560,1440,16:9,Safe area 1546x423 centred (visible on all devices),6MB,social cover,youtube channel banner art,TV shows full 2560x1440
+YouTube,Thumbnail,1280,720,16:9,Bottom-right 200x60 covered by duration badge,2MB,thumbnail,youtube thumbnail video cover,Readable at 168x94 - big face/object + 3-5 words
+Pinterest,Standard pin,1000,1500,2:3,Central 90%,20MB,social post,pinterest pin vertical,
+TikTok,In-feed ad,1080,1920,9:16,Right 140px (actions) and bottom 420px (caption) covered,500MB video,ad vertical,tiktok ad vertical,
+Telegram,Channel post image,1280,720,16:9,Central 90%,10MB,social post,telegram post image,Also 1280x1280 square
+VK,Post image,1080,1080,1:1,Central 90%,—,social post,vk vkontakte post,Also 1080x1350; VK Ads 1080x607 (16:9) and 1080x1920 stories
+VK,Community cover,1920,768,5:2,Mobile shows central 1196x530,—,social cover,vk community cover header,
+Google Display,Medium rectangle,300,250,6:5,4px inner margin; CTA fully visible,150KB,display ad,google display medium rectangle mpu,Top performer
+Google Display,Large rectangle,336,280,6:5,4px inner margin,150KB,display ad,google display large rectangle,
+Google Display,Leaderboard,728,90,8:1,Logo left / CTA right; no wrap,150KB,display ad,google display leaderboard top,
+Google Display,Half page,300,600,1:2,Stack logo-message-CTA vertically,150KB,display ad,google display half page skyscraper,
+Google Display,Wide skyscraper,160,600,4:15,Very narrow - 2-4 words per line,150KB,display ad,google display skyscraper sidebar,
+Google Display,Billboard,970,250,3.88:1,Central 90%,150KB,display ad,google display billboard desktop hero,
+Google Display,Mobile banner,320,50,6.4:1,Logo + 3 words + CTA only,150KB,display ad,google display mobile banner,
+Google Display,Large mobile banner,320,100,3.2:1,Logo + headline + CTA,150KB,display ad,google display mobile large,
+Yandex Direct (RSYa),Image ad,1080,607,16:9,Central 90%,10MB,display ad,yandex direct rsya image ad,Also 1080x1080 and 1080x1350; text added by platform for some formats
+Web,Hero full-width,1920,1080,16:9,Design for 1440 wide and 390 wide separately; art-direct with <picture>,—,web hero,website hero banner fullwidth,Usually built in HTML not as image
+Web,Section banner,1200,400,3:1,Central 90%,—,web banner,website section promo banner strip,
+Web,Open Graph,1200,630,1.91:1,Central 1100x530; title readable at 600px wide,8MB,og image,og open graph share preview,Also used by Telegram/Slack/Discord previews
+Email,Header,600,200,3:1,Text min 22px; many clients block images - put real text in HTML,—,email,email header newsletter,
+Print,Roll-up,850mm,2000mm,—,Key content at 800-1800mm height; 3-5mm bleed,—,print,rollup banner print standee,300dpi at reduced scale; CMYK
+Print,A4 poster,210mm,297mm,1:1.414,5mm safe margin; 3mm bleed,—,print,a4 poster flyer print,300dpi CMYK
